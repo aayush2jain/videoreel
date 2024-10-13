@@ -1,0 +1,24 @@
+body{
+    background-color: rgba(0,0,0,1); /* Green background */
+}
+#myButton {
+    width:200px;
+    background-color: #4CAF50; /* Green background */
+    margin: 10px 4px;
+    padding-top: 10px;/* Top margin of 10vh, side margins of 4px */
+    padding-bottom:10px;/* Top margin of 10vh, side margins of 4px */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    top:100px;
+    text-align: center; /* Center text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Make the button inline */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+#myButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
