@@ -1,7 +1,7 @@
-YouTube Audio Downloader
+//YouTube Audio Downloader
 This project provides a web-based application that allows users to download audio from YouTube videos. It leverages Node.js, Express, and the ytdl-core library to fetch and process video information, enabling users to extract and download audio in MP3 format.
 
-Features
+////Features
 YouTube Video Information Retrieval: Fetches video details such as title, author, and duration.
 Audio Extraction: Extracts audio from YouTube videos and provides it in MP3 format.
 Google OAuth Integration: Implements Google OAuth 2.0 for user authentication.
@@ -18,6 +18,6 @@ passport
 passport-google-oauth20
 Installation:-
 clone the github repo
-usage:-
+///usage:-
 unpack the extension using google extension
 run both frontend and backend on their pre-defined port
